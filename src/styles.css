@@ -1,0 +1,21 @@
+/* styles.css */
+.main-content {
+    padding: 20px;
+    min-height: calc(100vh - 100px); /* Adjust based on navbar and footer height */
+    background-color: #f8f9fa; /* Optional background color */
+  }
+  
+  app-navbar {
+    display: block;
+    background-color: #007bff; /* Navbar background */
+    color: white;
+  }
+  
+  app-footer {
+    display: block;
+    background-color: #343a40; /* Footer background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  

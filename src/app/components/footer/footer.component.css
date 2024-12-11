@@ -1,0 +1,42 @@
+/* Footer container */
+.footer {
+  background-color: #021e5b;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer text */
+.footer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+/* Footer links container */
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+/* Footer link items */
+.footer-links li {
+  margin: 0 10px;
+}
+
+/* Footer link styling */
+.footer-links li a {
+  color: #FFD700; /* Gold color for links */
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-links li a:hover {
+  color: white; /* Hover effect to white */
+}

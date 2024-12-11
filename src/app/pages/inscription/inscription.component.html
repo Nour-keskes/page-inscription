@@ -1,0 +1,39 @@
+<app-navbar></app-navbar>
+<div class="inscription">
+  <h1>Inscription</h1>
+  <form class="inscription-form">
+    <!-- Champ Nom -->
+    <div class="form-group">
+      <label for="lastName">Nom:</label>
+      <input type="text" id="lastName" name="lastName" placeholder="Entrez votre nom" required>
+    </div>
+
+    <!-- Champ Prénom -->
+    <div class="form-group">
+      <label for="firstName">Prénom:</label>
+      <input type="text" id="firstName" name="firstName" placeholder="Entrez votre prénom" required>
+    </div>
+
+    <!-- Champ Email -->
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Entrez votre email" required>
+    </div>
+
+    <!-- Champ Mot de passe -->
+    <div class="form-group">
+      <label for="password">Mot de passe:</label>
+      <input type="password" id="password" name="password" placeholder="Entrez votre mot de passe" required>
+    </div>
+
+    <!-- Champ Confirmation du mot de passe -->
+    <div class="form-group">
+      <label for="confirmPassword">Confirmez le mot de passe:</label>
+      <input type="password" id="confirmPassword" name="confirmPassword" placeholder="Confirmez votre mot de passe" required>
+    </div>
+
+    <!-- Bouton Soumettre -->
+    <button type="submit" class="submit-button">S'inscrire</button>
+  </form>
+</div>
+<app-footer></app-footer>
